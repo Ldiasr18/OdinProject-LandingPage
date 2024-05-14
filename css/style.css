@@ -48,7 +48,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0;
+    padding: 110px 0;
 }
 
 .mainText h1{
@@ -60,7 +60,7 @@ body{
 .mainText p{
     font-size: 18px;
     color: #e5e7eb;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .mainText button{
     background-color: #3882f6;
@@ -71,3 +71,4 @@ body{
     padding: 8px 25px;
     font-weight: bold;
 }
+
