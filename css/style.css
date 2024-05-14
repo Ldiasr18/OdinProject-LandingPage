@@ -41,3 +41,33 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
+
+/*Main Text*/
+
+.containerMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.mainText h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8
+}
+
+.mainText p{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 20px;
+}
+.mainText button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+    border: 0px;
+    padding: 8px 25px;
+    font-weight: bold;
+}
