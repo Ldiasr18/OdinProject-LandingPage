@@ -12,7 +12,7 @@ body{
 
 /*hero section*/
 
-.hero {
+.hero{
     padding: 0px 200px;
     background-color: #1F2937;
 }
@@ -72,3 +72,39 @@ body{
     font-weight: bold;
 }
 
+/*information*/
+
+.information{
+    display: flex;
+    padding: 50px 200px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1d2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoCards{
+    display: flex;
+    list-style: none;
+    padding: 0px 500px;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+
+}
+
+.infoCards p{
+    max-width: 175px;
+}
+
+.infoCards img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 25px;
+    width: 175px;
+    height: 175px;
+    border-color: #3882f6;
+}
