@@ -138,3 +138,28 @@ body {
     text-align: right;
     color:#3c3c42;
 }
+
+.containerWhite{
+    background-color: white;
+    padding: 100px 300px;
+}
+
+.callToAction{
+    color:#e5e7eb;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 4% 0.25%;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.callToAction button {
+    border-width: 2px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 1% 5%;
+    background-color: #3882f6;
+    color:#e5e7eb;
+}
