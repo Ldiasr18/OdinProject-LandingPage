@@ -6,13 +6,13 @@
     margin: 0;
 }
 
-body{
-    font-family: Roboto, sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 /*hero section*/
 
-.hero{
+.hero {
     padding: 0px 200px;
     background-color: #1F2937;
 }
@@ -44,25 +44,26 @@ body{
 
 /*Main Text*/
 
-.containerMain{
+.containerMain {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 110px 0;
 }
 
-.mainText h1{
+.mainText h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8
 }
 
-.mainText p{
+.mainText p {
     font-size: 18px;
     color: #e5e7eb;
     padding-bottom: 10px;
 }
-.mainText button{
+
+.mainText button {
     background-color: #3882f6;
     border-radius: 10px;
     color: #e5e7eb;
@@ -74,7 +75,7 @@ body{
 
 /*information*/
 
-.information{
+.information {
     display: flex;
     padding: 50px 200px;
     font-size: 36px;
@@ -84,20 +85,19 @@ body{
     justify-content: center;
 }
 
-.infoCards{
+.infoCards {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: center;
-    gap:32px;
-
+    gap: 100px;
 }
 
-.infoCards p{
+.infoCards p {
     max-width: 175px;
 }
 
-.infoCards img{
+.infoCards img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,8 +108,32 @@ body{
     border-color: #3882f6;
 }
 
-.infoContainer{
+.infoContainer {
     padding: 0px 0px 200px 0px;
 }
 
 /* quote */
+.quote{
+    padding: 10% 25%;
+
+    background-color: #E5E7EB;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.phrase{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    color: #3c3c42;
+}
+
+.thor{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+}
