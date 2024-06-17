@@ -113,18 +113,18 @@ body {
 }
 
 /* quote */
-.quote{
-    padding: 10% 25%;
+.quote {
+    padding: 10% 30%;
 
     background-color: #E5E7EB;
 }
 
-.quote{
+.quote {
     display: flex;
     flex-direction: column;
 }
 
-.phrase{
+.phrase {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -132,8 +132,9 @@ body {
     color: #3c3c42;
 }
 
-.thor{
+.thor {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
+    color:#3c3c42;
 }
